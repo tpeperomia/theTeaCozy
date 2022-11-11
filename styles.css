@@ -1,0 +1,171 @@
+/* universal */
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    /* padding: 0 20px; */
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+a {
+    color: rgb(253, 226, 206);
+}
+
+a:visited {
+    color: rgb(221, 155, 107);
+}
+
+a:hover {
+    color: burlywood;
+    font-size: 96%;
+}
+
+a:active {
+    color:rgb(251, 124, 33);
+}
+
+/* title & nav */
+
+.title-nav-container {
+    height: 69px;
+    width: 100%;
+    border: 1px seashell solid; 
+    border-width: 1px 0;
+    position: fixed;
+    background-color: black;
+    z-index: 9;
+    top: 0px;
+}
+
+.logo {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-bar {
+    position: relative;
+    float: right;
+    padding: 0 30px;
+}
+
+.nav-bar li {
+    list-style: none;
+    display: inline;
+    text-decoration: underline;
+}
+
+.nav-bar a {
+    padding: 0 5px;
+}
+
+/* mission */
+
+#mission {
+    display: flex;
+    margin: 60px;
+}
+
+.main-pic {
+    background-image: url(img-mission-background.jpeg);
+    height: 700px;
+    width: 1200px;
+    margin: 71px auto 0;
+    position: relative;
+}
+
+.mission-state-cont {
+    position: absolute;
+    top: 37%; 
+    left: 50%;
+    transform: translate(-50%, -63%);
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+/* tea of the month */
+
+.featured-title {
+    width: 1000px;
+    margin: 30px auto 0;
+    text-align: center;
+    padding: 6px;
+}
+
+.featured-flex-box {
+    height: 30%;
+    width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto 10px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.featured-pic {
+    display: inline-flex;
+    /* height: 200px; */
+    width: 300px;
+    min-height: 200px;
+}
+
+/* locations */
+
+#locations {
+    display: flex;
+    margin: 60px;
+}
+
+.locations-pic {
+    background-image: url(img-locations-background.jpeg);
+    background-position: bottom right;
+    height: 700px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.locations-title {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.locations-flex-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.location {
+    background-color: black;
+    width: 28%;
+    text-align: center;
+  
+}
+
+/* contact us & copyright*/
+
+.contact-cont {
+    border-top: 1px solid seashell;
+    border-bottom: 1px solid seashell;
+    height: 200px; 
+    margin: 60px 0 20px;
+    text-align: center;
+}
+
+.copyright {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+
